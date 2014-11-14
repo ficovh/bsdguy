@@ -11,13 +11,13 @@ Servidor web OpenBSD httpd nativo
 Recien se liberó la version 5.6 de `OpenBSD <http://www.openbsd.org>`__ y dentro de las
 novedades se encuetra un servidor web ligero que sustituye a Apache 1.3.
 
-`httpd(8) <http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man8/httpd.8?query=httpd`__ 
+`httpd(8) <http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man8/httpd.8?query=httpd>`__ 
 como se le conoce, es un servidor httpd con soporte FastCGI y SSL.
 
 La configuracion para httpd es simple, escribi un breve httpd.conf para configurar dos dominios
 para mi sito web.
 
-.. code-block:: console
+.. code-block:: sh
 
 	ext_ip="10.0.0.1" 	# Nuestra IP
 	server "default" { 
@@ -48,7 +48,8 @@ para mi sito web.
 Es necesario agregar en rc.conf.local y en pkg_scripts=httpd para iniciar el servidor automaticamente.
 
 .. code-block:: console 
-	 $ sudo i /etc/rc.conf.local
+
+	 $ sudo vi /etc/rc.conf.local
 	 httpd_flags=""
          
          $ sudo vi /etc/rc.conf
@@ -57,7 +58,8 @@ Es necesario agregar en rc.conf.local y en pkg_scripts=httpd para iniciar el ser
 Para iniciar el demonio:
 
 .. code-block:: console
+
 	$ sudo /etc/rc.d/httpd start
 
-httpd(8) es simple pero tiene FastCGI y SSL que lo hace atractivo, enhorabuena.
+`httpd(8) <http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man8/httpd.8?query=httpd>`__ es simple pero tiene FastCGI y SSL que lo hace atractivo, enhorabuena.
 
