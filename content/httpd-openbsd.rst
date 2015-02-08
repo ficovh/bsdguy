@@ -8,8 +8,7 @@ Servidor web OpenBSD httpd nativo
 :slug: httpd-openbsd
 :date: 2014-11-13 11:10
 
-Recien se liberó la version 5.6 de `OpenBSD <http://www.openbsd.org>`__ y dentro de las
-novedades se encuetra un servidor web ligero que sustituye a Apache 1.3.
+Recien se libero la version 5.6 de `OpenBSD <http://www.openbsd.org>`__ y dentro de las novedades se encuetra un servidor web ligero que sustituye a Apache 1.3.
 
 `httpd(8) <http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man8/httpd.8?query=httpd>`__ 
 como se le conoce, es un servidor httpd con soporte FastCGI y SSL.
