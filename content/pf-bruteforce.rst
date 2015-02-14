@@ -15,7 +15,6 @@ Pf se puede usar para bloquear intentos fallidos por SSH u otro protocolo, ejemp
 Si leemos el authlog en OpenBSD observamos lo siguiente:
 
 ::
-
   $ sudo tail -f /var/log/authlog  
 
   Feb 13 22:43:55 openbsd last message repeated 2 times
@@ -30,20 +29,20 @@ Si leemos el authlog en OpenBSD observamos lo siguiente:
   Feb 13 22:43:56 openbsd sshd[22991]: Received disconnect from 83.217.254.216: 11:  [preauth]
 
 
-En el archivo /etc/pf.conf necesitamos agregar:
+En el archivo /etc/pf.conf necesitamos agregar
 ----------------------------------------------
 
 ::
-    int_if = "fxp0"
+        int_if = "fxp0"
 
-    table  <ataque> persist
+        table  <ataque> persist
 
-    block quick from <ataque>
+        block quick from <ataque>
 
-    pass quick proto tcp from any to any port ssh \
-         flags S/SA keep state \
-         (max-src-conn 100, max-src-conn-rate 5/3, \
-           overload <ataque> flush global)
+        pass quick proto tcp from any to any port ssh \
+                flags S/SA keep state \
+                (max-src-conn 100, max-src-conn-rate 5/3, \
+                overload <ataque> flush global)
 
 
 Recargamos el archivo
