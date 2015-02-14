@@ -15,6 +15,7 @@ Pf se puede usar para bloquear intentos fallidos por SSH u otro protocolo, ejemp
 Si leemos el authlog en OpenBSD observamos lo siguiente:
 
 ::
+
   $ sudo tail -f /var/log/authlog  
 
   Feb 13 22:43:55 openbsd last message repeated 2 times
@@ -33,6 +34,7 @@ En el archivo /etc/pf.conf necesitamos agregar
 ----------------------------------------------
 
 ::
+
         int_if = "fxp0"
 
         table  <ataque> persist
@@ -49,6 +51,7 @@ Recargamos el archivo
 ---------------------
 
 ::
+
         $ sudo /sbin/pfctl -f /etc/pf.conf
 
 
@@ -56,5 +59,6 @@ Todas las IP's baneadas permanecen en la tabla <ataque> mientras no decidamos li
 proposito, la siguiente linea da un tiempo de vencimiento a la tabla <ataque> de 24 horas.
 
 ::
+
      $ sudo /sbin/pfctl -t ataque -T expire 86400
 
