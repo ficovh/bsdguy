@@ -3,7 +3,7 @@ Agregando un disco extra en NetBSD
 :author: Francisco Valladolid
 :tags: scsi, netbsd, unix, bsd, linux
 :lang: es
-:category: tutorial
+:category: blog 
 :slug: agregar-disco-NetBSD
 :date: 2011-06-29 1:57
 

@@ -3,7 +3,7 @@ Software libre, la ponencia
 :author: Francisco Valladolid
 :tags: software, libre, latex, beamer, slides, 
 :lang: es
-:category: tutorial
+:category: blog
 :slug: os-ponencia
 :date: 2011-09-25 23:30
 

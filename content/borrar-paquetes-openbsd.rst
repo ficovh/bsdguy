@@ -3,7 +3,7 @@ Borrando paquetes en OpenBSD
 :author: Francisco Valladolid
 :tags: openbsd, ports, paquetes, pkgtools 
 :lang: es
-:category: tutorial
+:category: blog
 :slug: borrar-paquetes-openbsd
 :date: 2012-10-04 23:59
 

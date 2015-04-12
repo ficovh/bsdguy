@@ -3,7 +3,7 @@ Paquetes binarios con pkgin
 :author: Francisco Valladolid
 :tags: netbsd, unix, bsd, pkgsrc, pkgin
 :lang: es
-:category: tutorial
+:category: blog 
 :slug: pkgin
 :date: 2011-06-29 18:06
 

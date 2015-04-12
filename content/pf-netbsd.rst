@@ -3,7 +3,7 @@ Configuracion de PF en NetBSD 5.1
 :author: Francisco Valladolid
 :tags: scsi, netbsd, unix, bsd, linux
 :lang: es
-:category: tutorial
+:category: blog
 :slug: pf-netbsd
 :date: 2011-09-10 4:27
 

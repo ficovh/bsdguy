@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Francisco Valladolid'
 SITENAME = u'Francisco Valladolid weblog'
-SITEURL = 'http://blog.bsdguy.org'
+SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
 
@@ -15,15 +15,20 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+PROFILE_IMG_URL = u'http://www.gravatar.com/avatar/ab1e128805502b007dd29966ca93273c.png'
+
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+          ('NetBSD', 'http://www.netbsd.org/'),
+          ('Perl','http://www.perl.org'),)
 
-SOCIAL = (('twitter', 'http://twitter.com/ficovh'),
-          ('lastfm', 'http://lastfm.com/user/ficovh'),
-          ('github', 'http://github.com/ficovh'),)
+SOCIAL = (
+            ('twitter', 'http://twitter.com/ficovh'),
+            ('github', 'http://github.com/ficovh'),
+            ('google+','https://plus.google.com/100483028055704960452')
+         )
 
 DEFAULT_PAGINATION = 10
 
@@ -33,4 +38,3 @@ DEFAULT_PAGINATION = 10
 
 GITHUB_URL='http://github.com/ficovh'
 DISQUS_SITENAME = "blogdefranciscovalladolid"
-

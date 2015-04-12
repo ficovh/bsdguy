@@ -1,9 +1,9 @@
 Usando oh-my-zsh
-##################################
+################
 :author: Francisco Valladolid
 :tags: openbsd, zsh, git, oh-my-zsh, shell
 :lang: es
-:category: tutorial
+:category: blog
 :slug: oh-my-zsh
 :date: 2011-11-13 1:28
 
@@ -53,4 +53,3 @@ Basta modificar nuestro **.zshrc** y elegir el
 de los mas de 50 existentes y reiniciar el shell. 
 
 zshroadmap(1) es una pagina de manual para un rapido repaso a lo mas importante de ZSH.
-

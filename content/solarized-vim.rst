@@ -3,7 +3,7 @@ Solarized Vim
 :author: Francisco Valladolid
 :tags: openbsd, vi, netbsd, unix, bsd, linux
 :lang: es
-:category: tutorial
+:category: blog
 :slug: solarized-vim
 :date: 2012-02-15 10:20
 

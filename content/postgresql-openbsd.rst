@@ -3,7 +3,7 @@ PostgreSQL en OpenBSD
 :author: Francisco Valladolid
 :tags: openbsd, postgresql, bsd, dbms
 :lang: es
-:category: tutorial
+:category: blog
 :slug: postgresql-openbsd
 :date: 2012-10-04 10:20
 

@@ -3,7 +3,7 @@ Introduccion a Perl
 :author: Francisco Valladolid
 :tags: perl, latex, beamer, slides, 
 :lang: es
-:category: tutorial
+:category: blog
 :slug: intro-perl
 :date: 2011-10-26 20:24
 

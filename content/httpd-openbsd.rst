@@ -4,7 +4,7 @@ Servidor web OpenBSD httpd nativo
 :author: Francisco Valladolid
 :tags: openbsd, web, httpd
 :lang: es
-:category: tutorial
+:category: blog
 :slug: httpd-openbsd
 :date: 2014-11-13 11:10
 

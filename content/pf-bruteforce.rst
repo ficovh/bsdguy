@@ -3,7 +3,7 @@ Bloqueando intentos masivos por SSH
 :author: Francisco Valladolid
 :tags: openbsd, security, pf, tcp
 :lang: es
-:category: tutorial
+:category: blog
 :slug: pf-attack
 :date: 2015-02-15
 
