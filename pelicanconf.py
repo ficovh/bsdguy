@@ -18,6 +18,7 @@ TRANSLATION_FEED_ATOM = None
 BANNER = 'images/banner.jpg'
 
 PROFILE_IMG_URL = u'http://www.gravatar.com/avatar/ab1e128805502b007dd29966ca93273c.png'
+STATIC_PATHS = ['images']
 
 
 # Blogroll
