@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Francisco Valladolid'
-SITENAME = u'Francisco Valladolid weblog'
+SITENAME = u'BSDguy.org blog'
 SITEURL = 'http://blog.bsdguy.org'
 
 TIMEZONE = 'Europe/Paris'
@@ -14,6 +14,8 @@ DEFAULT_LANG = u'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+BANNER = 'images/banner.jpg'
 
 PROFILE_IMG_URL = u'http://www.gravatar.com/avatar/ab1e128805502b007dd29966ca93273c.png'
 
@@ -35,6 +37,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 #THEME='pelican-bootstrap3'
+BOOTSTRAP_THEME='flatly'
 
 GITHUB_URL='http://github.com/ficovh'
 DISQUS_SITENAME = "blogdefranciscovalladolid"
