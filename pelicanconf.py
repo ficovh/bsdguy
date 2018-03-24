@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Francisco Valladolid'
 SITENAME = u'BSDguy.org'
-SITEURL = 'http://blog.bsdguy.org'
+#SITEURL = 'http://blog.bsdguy.org'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -15,11 +15,20 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-BANNER = 'images/banner.jpg'
+#BANNER = 'images/banner.jpg'
 
+
+COVER_IMG_URL = u'images/banner.jpg'
 PROFILE_IMG_URL = u'http://www.gravatar.com/avatar/ab1e128805502b007dd29966ca93273c.png'
+
+PATH = 'content'
 STATIC_PATHS = ['images']
+PAGE_PATHS = ['pages']
 DISPLAY_PAGES_ON_MENU = 'True'
+
+PLUGIN_PATHS = ['/Users/ficovh/pelican-plugins']
+PLUGINS = ['gravatar']
+
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
@@ -38,7 +47,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 #THEME='pelican-bootstrap3'
-BOOTSTRAP_THEME='flatly'
+#BOOTSTRAP_THEME='flatly'
 
 GITHUB_URL='http://github.com/ficovh'
 DISQUS_SITENAME = "blogdefranciscovalladolid"

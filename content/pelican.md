@@ -1,12 +1,11 @@
-Title: Pelican  
+Title: Make a static website with Pelican 
 author: Francisco Valladolid
 tags: python, blog, static, website
 lang: en
 category: blog
 slug: pelican
-Date: 2018-02-07
-
-# Make a static blog with Pelican.
+Date: 2018-03-19
+email: ficovh@gmail.com
 
 ## What is Pelican?
 According to the website, Pelican is a static website generator written in Python programming language.
