@@ -39,7 +39,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (
             ('twitter', 'http://twitter.com/ficovh'),
             ('github', 'http://github.com/ficovh'),
-            ('google+','https://plus.google.com/100483028055704960452')
+            ('gitlab','https://gitlab.com/ficovh')
          )
 
 DEFAULT_PAGINATION = 10
