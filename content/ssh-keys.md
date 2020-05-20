@@ -1,10 +1,10 @@
 Title: Generando llaves SSH
-:author: Francisco Valladolid
-:tags: openbsd, zsh, git, shell, ssh, keys, rsa, ed_25519
-:lang: es
-:category: blog
-:slug: ssh-keys
-:date: 2020-05-17 1:28
+author: Francisco Valladolid
+tags: openbsd, zsh, git, shell, ssh, keys, rsa, ed_25519
+lang: es
+category: blog
+slug: ssh-keys
+date: 2020-05-17
 
 ## Generando llaves SSH
 
