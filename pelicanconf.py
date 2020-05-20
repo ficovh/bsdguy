@@ -29,9 +29,9 @@ DISPLAY_PAGES_ON_MENU = 'True'
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['gravatar']
 
-#THEME_STATIC_PATHS = ['static']
-THEME_STATIC_DIR = 'themes'
-THEME='./themes/pure'
+THEME_STATIC_PATHS = ['static']
+THEME_STATIC_DIR = 'theme'
+THEME='./theme/pure'
 
 
 # Blogroll
