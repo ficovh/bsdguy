@@ -5,9 +5,7 @@ lang: es
 category: blog
 slug: ssh-keys
 date: 2020-05-17
-
-## Generando llaves SSH
-
+email: ficovh@gmail.com
 
 Use el comando [ssh-heygen(1)](https://man.openbsd.org/ssh-keygen.1) para crear un par de llaves e introduzca una contraseña de seguridad.
 
