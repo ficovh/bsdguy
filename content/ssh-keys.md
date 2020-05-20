@@ -9,7 +9,7 @@ date: 2020-05-17
 ## Generando llaves SSH
 
 
-Use el comando [ssh-heygen(1)] (https://man.openbsd.org/ssh-keygen.1) para crear un par de llaves e introduzca una contraseña de seguridad.
+Use el comando [ssh-heygen(1)](https://man.openbsd.org/ssh-keygen.1) para crear un par de llaves e introduzca una contraseña de seguridad.
 
 
     $  ssh-keygen -o -t ed25519 -a 100 -f ~/.ssh/id_ed25519 
@@ -41,7 +41,7 @@ Use el comando [ssh-heygen(1)] (https://man.openbsd.org/ssh-keygen.1) para crear
     -a 100  especifica el numero de "rounds" KDF (Key derivation function)
 	-f especifica el nombre del archivo
 		
-###Puedes copiar la nueva llave al clipboard para subirla a Github/Gitlab.
+### Puedes copiar la nueva llave al clipboard para subirla a Github/Gitlab.
 
 	en OSX
 	$ pbcopy < ~/.ssh/id_ed25519.pub
