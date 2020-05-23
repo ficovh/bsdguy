@@ -39,7 +39,7 @@ Use el comando [ssh-heygen(1)](https://man.openbsd.org/ssh-keygen.1) para crear 
     -a 100  especifica el numero de "rounds" KDF (Key derivation function)
 	-f especifica el nombre del archivo
 		
-#### Los siguientes comandos te permiten copiar el contenido de tu llave al clipboard para subirla a servidor o a Github/Gitlab.
+***Los siguientes comandos te permiten copiar el contenido de tu llave al clipboard para subirla a servidor o a Github/Gitlab.***
 
 	en OSX
 	$ pbcopy < ~/.ssh/id_ed25519.pub
