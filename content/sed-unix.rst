@@ -21,36 +21,48 @@ separados por ^M (enter msdos)  del cual ten&iacute; que ordenarlo en forma de l
 
 El archivo en cuestion se ve as&iacute; 
 
-.. image:: test1.png
-   :target: https://imgur.com/NVhvxj6
+.. image:: NVhvxj6.png
+    :target: https://i.imgur.com/
+
 
 Necesito sustituir los espacios en blanco por un caracter de nueva linea para
 crear una lista de usuarios, usamos el comando *sed* de la siguiente forma.
 
-::
+.. code-block:: console
+
     $ sed 's/\s/\n/g' test.txt > sed1.txt
 
-Despu&eacute;s de eecutarl el comando, el archivo luce as&iacute;.
 
-.. image:: sed1.png
-    :target: https://imgur.com/tOXctyF
+Después de ejcutar el comando, el archivo luce así.
+
+
+.. image:: tOXctyF.png
+    :target: https://i.imgur.com/
+
 
 Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
 
-::
+
+.. code-block:: console
+
     $ sed -i 's/^/add name\=/g' sed1.txt
 
-.. image:: sed3.png
-    :target: https://imgur.com/MguwLUC
+
+.. image:: MguwLUC.png
+    :target: https://i.imgur.com/
+
 
 Tambien necesito agregar al final la siguiente cadena:
 
-::
+
+.. code-block:: console
+
     sed -i 's/$/ limit-uptime\=02:00:00 disabled\=no profile\=\"1mega\"/g' sed1.txt
 
-.. image:: result.png
-    :target: https://imgur.com/KhedLDe
+
+.. image:: KhedLDe.png
+    :target: https://i.imgur.com/
+
 
 Unix es un sistema operativo muy completo, como tal ya no existe, pero sus derivados si,
-por citar algunos: *Linux, OpenBSD, FreeBSD, NetBSD, OSX*. Para el especialista en sistemas 
-es una delicia trabajar con este.
+por citar algunos: *Linux, OpenBSD, FreeBSD, NetBSD, OSX*. 
