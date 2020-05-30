@@ -16,13 +16,13 @@ realizar todo tipo de tareas de procesamiento de archivos de texto.
 
 El superconjunto incluye: *sed, awk, cat, echo, grep, ed, vi* entre otros.
 
-Recientemente me top&eacute; con un archivo exportado que incluye un conjunto de usuarios
+Recientemente me topé con un archivo exportado que incluye un conjunto de usuarios
 separados por ^M (enter msdos)  del cual ten&iacute; que ordenarlo en forma de lista.
 
 El archivo en cuestion se ve as&iacute; 
 
 .. image:: NVhvxj6.png
-    :target: https://i.imgur.com/
+    :target: https://i.imgur.com/NVhvxj6.png
 
 
 Necesito sustituir los espacios en blanco por un caracter de nueva linea para
@@ -37,7 +37,7 @@ Después de ejcutar el comando, el archivo luce así.
 
 
 .. image:: tOXctyF.png
-    :target: https://i.imgur.com/
+    :target: https://i.imgur.com/tOXctyF.png
 
 
 Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
@@ -49,7 +49,7 @@ Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
 
 
 .. image:: MguwLUC.png
-    :target: https://i.imgur.com/
+    :target: https://i.imgur.com/MguwLUC.png
 
 
 Tambien necesito agregar al final la siguiente cadena:
@@ -61,7 +61,7 @@ Tambien necesito agregar al final la siguiente cadena:
 
 
 .. image:: KhedLDe.png
-    :target: https://i.imgur.com/
+    :target: https://i.imgur.com/KhedLDe.png
 
 
 Unix es un sistema operativo muy completo, como tal ya no existe, pero sus derivados si,
