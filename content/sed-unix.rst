@@ -10,6 +10,8 @@ sed basico
 
 ¿Que es Sed?
 ------------
+*sed (Stream Editor)* es un editor de flujos, te permite editar, reemplazar lineas en un archivo de texto
+usando expresiones regulares.
 
 El sistema operativo Unix tiene un superconjunto de comandos que permiten
 realizar todo tipo de tareas de procesamiento de archivos de texto.
@@ -22,9 +24,8 @@ algunos parametros antes y despues para exportarlo a un router Mikrotik.
 
 El archivo en cuestion se ve así. 
 
-.. image:: https://live.staticflickr.com/65535/49952861558_144c0d53f2_b.jpg
-
-
+.. image:: https://i.imgur.com/NVhvxj6m.png
+   :target: https://i.imgur.com/NVhvxj6.png
 
 Necesito sustituir los espacios en blanco por un caracter de nueva linea para
 crear una lista de usuarios, usamos el comando *sed* de la siguiente forma.
@@ -37,8 +38,8 @@ crear una lista de usuarios, usamos el comando *sed* de la siguiente forma.
 Después de ejcutar el comando, el archivo luce así.
 
 
-.. image:: tOXctyF.png
-    :target: https://i.imgur.com/tOXctyF.png
+.. image:: https://i.imgur.com/tOXctyFm.png
+   :target: https://i.imgur.com/tOXctyF.png
 
 
 Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
@@ -49,8 +50,8 @@ Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
     $ sed -i 's/^/add name\=/g' sed1.txt
 
 
-.. image:: MguwLUC.png
-    :target: https://i.imgur.com/MguwLUC.png
+.. image:: https://i.imgur.com/MguwLUCm.png
+   :target: https://i.imgur.com/MguwLUC.png
 
 
 Tambien necesito agregar al final la siguiente cadena:
@@ -61,8 +62,8 @@ Tambien necesito agregar al final la siguiente cadena:
     $ sed -i 's/$/ limit-uptime\=02:00:00 disabled\=no profile\=\"1mega\"/g' sed1.txt
 
 
-.. image:: KhedLDe.png
-    :target: https://i.imgur.com/KhedLDe.png
+.. image:: https://i.imgur.com/KhedLDem.png
+   :target: https://i.imgur.com/KhedLDe.png
 
 
 Unix es un sistema operativo muy completo, como tal ya no existe, pero sus derivados si,
