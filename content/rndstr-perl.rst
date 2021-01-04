@@ -8,7 +8,7 @@ Cadenas aleatorias en Perl
 :slug: random-str-perl
 :date: 2021-01-04 15:10
 
-El siguiente codigop genera cadenas aleatorioas en `perl <http://www.perl.or">` 
+El siguiente codigop genera cadenas aleatorias en `perl <http://www.perl.org">` 
 
 
 .. code-block:: perl
