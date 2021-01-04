@@ -36,7 +36,7 @@ THEME='./theme/pure'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
+          ('Python', 'http://python.org/'),
           ('NetBSD', 'http://www.netbsd.org/'),
           ('Perl','http://www.perl.org'),)
 
