@@ -9,11 +9,11 @@ email: ficovh@gmail.com
 
 ### Funcion getopt en C - Linux/BSD y variantes unicamente.
 
-### Definición.
+## Definición.
 
  **getopt()** es una función escrita en lenguaje C para analizar argumentos en la linea de comandos.
 
-### Sintaxis.
+## Sintaxis.
 ```
   getopt(int argc, char *const argv[], const char *optstring)
 
@@ -21,7 +21,7 @@ email: ficovh@gmail.com
   cada uno representando una opción.
 ```
 
-### Valores de retorno.
+## Valores de retorno.
 
 La funcion *getopt()* regresa diferentes valores.
 
@@ -43,7 +43,7 @@ un segundo ciclo es usado para procesar los argumentos extra que no pudieron ser
 
 A continuación, el siguiente ejemplo escrito en C ilustra la función correctamente.
 
-### Ejemplo:
+## Ejemplo:
 
 ```
 #include <stdio.h>
@@ -80,3 +80,16 @@ int main(int argc, char *argv[])
 }
 
 ```
+La función *getopt()* esta disponible solamente en sistemas compatibles con el estandar posix. Yo use gcc en windows 10 para poder compilar correctamente.  
+
+### Referencias:
+
+[getopt(3) NetBSD](http://man.netbsd.org/getopt.3)
+
+[getopt(3) OpenBSD](http://man.openbsd.org/getopt.3)
+
+[getopt(3) FreeBSD](https://www.freebsd.org/cgi/man.cgi?query=getopt&apropos=0&sektion=3&manpath=FreeBSD+12.2-RELEASE+and+Ports&arch=default&format=html)
+
+[getopt(3) Linux](https://man7.org/linux/man-pages/man3/getopt.3.html)
+
+
