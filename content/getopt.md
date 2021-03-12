@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 }
 
 ```
-La función *getopt()* esta disponible solamente en sistemas compatibles con el estandar posix. Yo use gcc en windows 10 para poder compilar correctamente.  
+La función *getopt()* esta disponible solamente en sistemas compatibles con el estandar posix.  
 
 ### Referencias:
 
