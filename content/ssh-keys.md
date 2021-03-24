@@ -47,6 +47,11 @@ Use el comando [ssh-heygen(1)](https://man.openbsd.org/ssh-keygen.1) para crear 
 	en OpenBSD
 	$ xclip -selection clipboard ~/.ssh/id_ed25519.pub
 
+A continuacion agregamos nuestra llave al `ssh-agent`
+
+	$ eval `ssh-agent -s`
+        $ ssh-add ~/.ssh/id_ed25519
+
 
 Ahora nuestras llaves SSH estan usando el algoritmo ed25519 y se encuentran en el directorio ~/.ssh/.
 
