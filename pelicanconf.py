@@ -31,7 +31,7 @@ PLUGINS = ['gravatar']
 
 THEME_STATIC_PATHS = ['static']
 THEME_STATIC_DIR = 'theme'
-THEME='./theme/pure'
+THEME='theme/pure'
 
 
 # Blogroll

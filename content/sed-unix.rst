@@ -26,6 +26,7 @@ El archivo en cuestion se ve así.
 
 .. image:: https://i.imgur.com/NVhvxj6m.png
    :target: https://i.imgur.com/NVhvxj6.png
+   :alt: sed
 
 Necesito sustituir los espacios en blanco por un caracter de nueva linea para
 crear una lista de usuarios, usamos el comando *sed* de la siguiente forma.
@@ -40,6 +41,7 @@ Después de ejcutar el comando, el archivo luce así.
 
 .. image:: https://i.imgur.com/tOXctyFm.png
    :target: https://i.imgur.com/tOXctyF.png
+   :alt: sed
 
 
 Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
@@ -52,6 +54,7 @@ Además de eso, necesito agregar una cadena de texto al inicio:  *add name=*
 
 .. image:: https://i.imgur.com/MguwLUCm.png
    :target: https://i.imgur.com/MguwLUC.png
+   :alt: sed
 
 
 Tambien necesito agregar al final la siguiente cadena:
@@ -64,6 +67,7 @@ Tambien necesito agregar al final la siguiente cadena:
 
 .. image:: https://i.imgur.com/KhedLDem.png
    :target: https://i.imgur.com/KhedLDe.png
+   :alt: sed
 
 
 Unix es un sistema operativo muy completo, como tal ya no existe, pero sus derivados si,
